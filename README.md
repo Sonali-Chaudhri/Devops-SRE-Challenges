@@ -90,7 +90,7 @@ while true; do
         6) echo "Exiting..."; exit 0 ;;
         *) echo "Invalid choice! Please select a valid option." ;;
     esac
-done
+
 
 Step 4: Make the Script Executable
 chmod +x system_health_check.sh
