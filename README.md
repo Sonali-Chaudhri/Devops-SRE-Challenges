@@ -1,9 +1,8 @@
 Day 1 Challenge: Menu-Based System Health Check Script
 
 Solution-
-Step 1: Define the Script Objective
+Script Objective
 We need a Bash script that:
-
 Provides a menu for users to check disk usage, running services, memory, and CPU usage.
 Sends a detailed system report via email every 4 hours.
 Implements exception handling and debugging.
@@ -119,6 +118,8 @@ Step 5: Automate email reports using cron
 ![Screenshot (440)](https://github.com/user-attachments/assets/5743dac7-c398-47e1-a472-6023a49b897a)
 ![Screenshot (441)](https://github.com/user-attachments/assets/e095bbb5-c903-4c57-a86f-2d688f50a192)
 ![Screenshot (442)](https://github.com/user-attachments/assets/0c4f5a9b-8b27-4120-9325-bf95aa0363a2)
+![Screenshot (439)](https://github.com/user-attachments/assets/ccdc3175-a612-400a-a9cc-eb516b792c45)
+
 
 
  
