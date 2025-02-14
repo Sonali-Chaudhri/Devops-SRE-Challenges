@@ -6,7 +6,7 @@ We need a Bash script that:
 Provides a menu for users to check disk usage, running services, memory, and CPU usage.
 Sends a detailed system report via email every 4 hours.
 Implements exception handling and debugging.
-
+.
  Step 2: Install Required Packages
 Ensure you have mailutils installed to send emails.
 sudo apt update
