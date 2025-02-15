@@ -1,0 +1,59 @@
+{
+  "buckets": [
+    {
+      "name": "prod-data",
+      "region": "us-west-2",
+      "createdOn": "2023-10-12",
+      "tags": {
+        "environment": "prod",
+        "team": "analytics"
+      },
+      "policies": [
+        {
+          "type": "read",
+          "appliedTo": ["users", "services"]
+        },
+        {
+          "type": "write",
+          "appliedTo": ["services"]
+        }
+      ],
+      "versioning": true,
+      "sizeGB": 120
+    },
+    {
+      "name": "dev-app-logs",
+      "region": "us-east-1",
+      "createdOn": "2024-02-15",
+      "tags": {
+        "environment": "dev",
+        "team": "engineering"
+      },
+      "policies": [
+        {
+          "type": "read",
+          "appliedTo": ["users"]
+        }
+      ],
+      "versioning": false,
+      "sizeGB": 10
+    },
+    {
+      "name": "backup",
+      "region": "eu-central-1",
+      "createdOn": "2022-11-30",
+      "tags": {
+        "environment": "prod",
+        "team": "ops"
+      },
+      "policies": [
+        {
+          "type": "read",
+          "appliedTo": ["services"]
+        }
+      ],
+      "versioning": true,
+      "sizeGB": 80
+    }
+  ]
+}
