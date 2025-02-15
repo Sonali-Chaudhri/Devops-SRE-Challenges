@@ -47,5 +47,6 @@ After modifying the bucket, I needed to ensure the changes persisted in buckets.
 ✅ Solution:
 My script printed the updated bucket details and confirmed that changes were saved.
 
+![Screenshot (443)](https://github.com/user-attachments/assets/eb827414-f074-459e-bfeb-259e6205a669)
 
 
