@@ -17,7 +17,7 @@ sudo apt install mailutils -y
  nano system_health_check.sh
 Now, add the following script:
 #!/bin/bash
-
+.
 # Email to send reports
 EMAIL="your-email@example.com"
 
